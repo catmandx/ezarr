@@ -13,7 +13,7 @@ sudo usermod -a -G mediacenter qbittorrent
 
 # Make directories
 sudo mkdir -pv docker/{sonarr,radarr,prowlarr,qbittorrent}-config
-sudo mkdir -pv data/{torrents,data}/{tv,movies}
+sudo mkdir -pv data/{torrents,media}/{tv,movies}
 
 # Set permissions
 sudo chmod -R 775 data/
